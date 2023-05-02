@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Submit Information</title>
+	<style>
+		body {
+			background-color: #222;
+			color: #fff;
+			font-size: 20px;
+			font-family: sans-serif;
+		}
+		form {
+			margin-top: 50px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		input[type="text"] {
+			width: 300px;
+			height: 30px;
+			font-size: 20px;
+			margin-bottom: 20px;
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+		}
+		input[type="submit"] {
+			width: 150px;
+			height: 40px;
+			background-color: green;
+			color: #fff;
+			font-size: 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<form method="post">
+		<label for="info">Enter Information:</label>
+		<input type="text" id="info" name="info">
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
